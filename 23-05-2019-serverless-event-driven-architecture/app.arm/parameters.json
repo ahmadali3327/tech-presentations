@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_demoTwitter_name": {
+            "value": null
+        },
+        "connections_twitter_name": {
+            "value": null
+        },
+        "connections_documentdb_name": {
+            "value": null
+        },
+        "sites_twitterdemomeetup_name": {
+            "value": null
+        },
+        "topics_demoTwitter_name": {
+            "value": null
+        },
+        "workflows_processTweet_name": {
+            "value": null
+        },
+        "SignalR_hmbtwitterdemo_name": {
+            "value": null
+        },
+        "connections_azureeventgridpublish_name": {
+            "value": null
+        },
+        "serverfarms_FunctionApp20190512035939Plan_name": {
+            "value": null
+        },
+        "databaseAccounts_twitterdemocosmosdb_name": {
+            "value": null
+        },
+        "components_AI_demoTwitterLogicApp_96d9_name": {
+            "value": null
+        },
+        "alertrules_Failure_Anomalies___AI_demoTwitterLogicApp_96d9_name": {
+            "value": null
+        },
+        "serverfarms_hmbtestapp_externalid": {
+            "value": null
+        },
+        "subscription_id":{
+            "value": null
+        }
+    }
+}
