@@ -26,4 +26,4 @@ For more details, please follow the reference links included in the presentation
 - Enable port forwarding for Kiali's service (kubectl -n istio-system port-forward kiali-nnnnnnnnnnnn 20001:20001)
 
 - Open Grafana's dashboard (http://localhost:3000/?orgId=1)
-- Open Kiali's dashboard (http://localhost:20001/kiali/)
+- Open Kiali's dashboard (http://localhost:20001/kiali/) (by default **username**: admin, **password**: admin)
