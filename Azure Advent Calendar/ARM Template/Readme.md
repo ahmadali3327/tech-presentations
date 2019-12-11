@@ -5,15 +5,20 @@ In case you need to use the Free tier, you need to deploy or create each of the 
 
 In case you want to use Cloud Shell to deploy this template, you can upload this template to your shell session, and then run the following commands in the shell:
 
-	az group create --name ExampleGroup --location "Central US"
+This first command will create a Resource Group named *ExampleGroup* in the *Central US* location.
 
+```
+az group create --name ExampleGroup --location "Central US"
+```
 
-	az group deployment create \
-	  --name ExampleDeployment \
-	  --resource-group ExampleGroup \
-	  --template-file template.json \
-	  --parameters @parameters.json
-	
-
-The first command will create a Resource Group named *ExampleGroup* in the *Central US* location.
 The second command will deploy the template to the given resource group and location.
+
+```
+az group deployment create \
+  --name ExampleDeployment \
+  --resource-group ExampleGroup \
+  --template-file template.json \
+  --parameters @parameters.json
+```	
+
+
