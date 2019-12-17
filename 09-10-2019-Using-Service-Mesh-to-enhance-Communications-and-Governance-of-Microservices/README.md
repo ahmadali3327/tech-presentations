@@ -14,8 +14,8 @@ For more details, please follow the reference links included in the presentation
 - Run Minikube - be careful with amount of memory and CPUs you allocate in order to everything work as expected (minikube start --memory=16384 --cpus=4)
 - Activate minikube tunnel in separate command-line, in case you run Minikube on Windows ( minikube tunnel )
 - Install Istio (https://istio.io/docs/setup/install/kubernetes/)
---Note: When you reach the Deploy your app, you can consider to deploy the demo app - Bookinfo (https://istio.io/docs/examples/bookinfo/)
--- Also, use auto inject for the sidecar proxies
+* Note: When you reach the Deploy your app, you can consider to deploy the demo app - Bookinfo (https://istio.io/docs/examples/bookinfo/)
+* Also, use auto inject for the sidecar proxies
 - Validate list of pods running (kubectl get pods)
 - Validate containers per each pod (kubectl get pods -o=custom-columns=NameSpace:.metadata.namespace,NAME:.metadata.name,CONTAINERS:.spec.containers[*].name
 	      
