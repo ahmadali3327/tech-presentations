@@ -15,6 +15,8 @@ For more details, please follow the reference links included in the presentation
 - Activate minikube tunnel in separate command-line, in case you run Minikube on Windows ( minikube tunnel )
 - Install Istio (https://istio.io/docs/setup/install/kubernetes/)
 	Note: When you reach the Deploy your app, you can consider to deploy the demo app - Bookinfo (https://istio.io/docs/examples/bookinfo/)
+- Validate list of pods running (kubectl get pods)
+- Validate containers per each pod (kubectl get pods -o=custom-columns=NameSpace:.metadata.namespace,NAME:.metadata.name,CONTAINERS:.spec.containers[*].name
 	      Also, use auto inject for the sidecar proxies
 - Get from the terminal the external ip for your cluster (is showing in the terminal where you activated the minikube tunnel.)
 - Validate demo app is running (http://192.168.99.101:31380/productpage)
